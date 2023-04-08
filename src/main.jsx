@@ -11,6 +11,7 @@ import Main from './components/Layout/Main/Main';
 import OrderReview from './components/OrderReview/OrderReview';
 import About from './components/Layout/About/About';
 import Contact from './components/Layout/Contact/Contact';
+import Roots from './components/Roots/Roots';
 
 
 
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: 'contact',
         element: <Contact></Contact>
+      },
+      {
+        path: 'roots',
+        element: <Roots></Roots>
       }
       
     ]
